@@ -6,13 +6,13 @@ package com.mycompany.carritocompras;
 
 /**
  *
- * @author Golem
+ * @author josed
  */
 public class CarritoCompras {
     
  
         public static void main(String[] args){
-            Usuario usuario = new Usuario(1," Leonardo ","Pacheco","leo180620@gmail,com","leo17");
+            Usuario usuario = new Usuario(1," Jose Daniel ","Cortes","dan0812@gmail,com","dani08");
             usuario.registrarse();
             usuario.iniciarSecion();
             
@@ -35,7 +35,7 @@ public class CarritoCompras {
              Pago pago= new Pago(1,501,"Tarjeta de credito ","En la siguiente fecha 01/05/2025");
              pago.realizarPago();
              
-             Envio envio= new Envio(1,501,"Avenida ferrocarril sin numero,Colonia el jordan ","Tu pedido llega entre el 6 y 7 de mayo de 2025");
+             Envio envio= new Envio(1,501,"Avenida Héroes s/n ","Tu pedido llega entre el 6 y 7 de mayo de 2025");
              envio.realizarEnvio();
              
         }
