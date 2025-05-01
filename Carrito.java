@@ -6,7 +6,7 @@ package com.mycompany.carritocompras;
 
 /**
  *
- * @author Golem
+ * @author josed
  */
 
 import java.util.ArrayList;
